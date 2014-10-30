@@ -124,7 +124,7 @@ minetest.register_on_placenode(can_place)
 minetest.register_craft({
 	output = 'gate:fencegate',
 	recipe = {
-		 {'default:stick', 'default:wood', 'default:stick'},
-		 {'default:stick', 'default:wood', 'default:stick'},
+		 {'default:stick', 'group:wood', 'default:stick'},
+		 {'default:stick', 'group:wood', 'default:stick'},
 	}
 })
